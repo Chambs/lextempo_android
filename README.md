@@ -1,4 +1,5 @@
 # LexTempo – Calculadora Penal
+## Matheus Santos Feitosa // 20.00628-4
 
 Aplicativo Android que auxilia profissionais do Direito na projeção de marcos da execução penal (progressão de regime e livramento condicional) usando percentuais simplificados da Lei de Execução Penal. O projeto foi desenvolvido em Kotlin com foco em uma experiência direta e responsiva para consultas rápidas em audiências ou atendimentos.
 

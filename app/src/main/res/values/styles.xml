@@ -2,6 +2,6 @@
 <resources>
     <style name="ShapeAppearance.LexTempo.Logo" parent="ShapeAppearance.MaterialComponents.LargeComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">50dp</item>
+        <item name="cornerSize">25%</item>
     </style>
 </resources>

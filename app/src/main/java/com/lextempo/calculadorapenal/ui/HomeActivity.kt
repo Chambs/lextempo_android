@@ -31,7 +31,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     private fun abrirWhatsapp() {
-        val uri = Uri.parse("https://wa.me/5511982081902")
+        val uri = Uri.parse("https://wa.me/5511930083998")
         val intent = Intent(Intent.ACTION_VIEW, uri)
         try {
             startActivity(intent)
