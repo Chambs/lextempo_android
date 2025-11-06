@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LexTempo</string>
+    <string name="main_header_title">LexTempo</string>
+    <string name="main_header_subtitle">Calculadora Penal — informe os dados para estimar os marcos de execução.</string>
+    <string name="section_sentence_title">Dados da pena</string>
+    <string name="label_sentence_helper">Informe apenas números inteiros.</string>
+    <string name="hint_years">Anos</string>
+    <string name="hint_months">Meses</string>
+    <string name="hint_days">Dias</string>
+    <string name="label_sentence_start_date">Data de início do cumprimento</string>
+    <string name="hint_sentence_start_date">Selecione a data</string>
+    <string name="label_detracao">Detração (dias já cumpridos)</string>
+    <string name="hint_detracao">Ex.: 120</string>
+    <string name="section_context_title">Situação do apenado</string>
+    <string name="hint_crime_type">Tipo de crime</string>
+    <string name="hint_inmate_status">Situação</string>
+    <string name="action_calculate">Calcular benefícios</string>
+    <string name="section_results_title">Resultados</string>
+    <string name="result_default_progressao_semi">Progressão ao semiaberto: —</string>
+    <string name="result_default_progressao_aberto">Progressão ao aberto: —</string>
+    <string name="result_default_livramento">Livramento condicional: —</string>
+    <string name="toast_missing_sentence">Informe a pena.</string>
+    <string name="result_livramento_vedado">Livramento condicional: VEDADO</string>
+    <string name="end_icon_calendar_description">Selecionar data</string>
+    <string name="home_subtitle">Soluções em execução penal ao alcance de um toque.</string>
+    <string name="home_button_calculator">Acessar calculadora</string>
+    <string name="home_button_whatsapp">Falar pelo WhatsApp</string>
+    <string name="home_sponsored">Patrocinado por Cespedes Lourenço Advocacia</string>
+</resources>

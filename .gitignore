@@ -1,0 +1,37 @@
+# Gradle e builds
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Configuração local
+local.properties
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Keystores e segredos
+*.jks
+*.keystore
+*.keystore.*
+*release.keystore
+
+# Arquivos gerados em tempo de execução
+app/build/
+.kotlin/
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crime_options">
+        <item>Comum (art. 33 I LEP) - 16% / 20%</item>
+        <item>Comum com violência ou grave ameaça - 25% / 30%</item>
+        <item>Hediondo ou equiparado - 40% / 60%</item>
+        <item>Hediondo com resultado morte - 50% / 70%</item>
+    </string-array>
+
+    <string-array name="situacao_options">
+        <item>Primário</item>
+        <item>Reincidente</item>
+    </string-array>
+</resources>

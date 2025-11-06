@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home_gradient"
+    android:paddingStart="28dp"
+    android:paddingTop="120dp"
+    android:paddingEnd="28dp"
+    android:paddingBottom="36dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="156dp"
+        android:layout_height="156dp"
+        android:contentDescription="@string/app_name"
+        android:importantForAutofill="no"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/ShapeAppearance.LexTempo.Logo"
+        app:strokeColor="@color/app_primary"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/app_primary"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/ivLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHomeSubtitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="@string/home_subtitle"
+        android:textColor="@color/app_on_background"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/tvAppName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnAbrirCalculadora"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/home_button_calculator"
+        android:textAllCaps="false"
+        android:textColor="@color/app_on_primary"
+        android:textSize="17sp"
+        app:backgroundTint="@color/app_primary"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/tvHomeSubtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnWhatsapp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/home_button_whatsapp"
+        android:textAllCaps="false"
+        android:textColor="@color/app_primary"
+        android:textSize="17sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btnAbrirCalculadora"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="@color/app_primary"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/tvSponsored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/home_sponsored"
+        android:textColor="@color/app_on_background"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintTop_toBottomOf="@id/btnWhatsapp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
